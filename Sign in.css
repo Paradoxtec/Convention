@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: darkgray;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+.content{
+width: 100%;
+max-width: 200px;
+position: absolute;
+top: 30%;
+left: 30%;
+transform: translate(-50%-50%);
+background-color: white;
+padding: 20px 30px 40px;
+}
+button{
+    border-radius: 3px;
+    background-color: blue;
+    border: none;
+    padding: 10px 20px;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: gray;
+}
+ul{
+    list-style: none;
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+/* All asterick*/
+em{
+    color: red;
+} 
+
+/* navigation bars*/
+a{
+    text-decoration: none;
+    color:gray ;
+    font-size: 2rem;
+}
+a:hover{
+    color: blue;
+}
+
+/* navigation icon*/
+.toggle-bar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: gray;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* Style for all icons*/
+.toggle-bar .fa-bars {
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.link {
+    list-style: none;
+    padding: 0;
+}
+
+.link li {
+    margin-bottom: 10px;
+}
+
+.link a {
+    color: gray;
+    text-decoration: none;
+}
+
+.link i {
+    font-size: 16px;
+    margin-right: 5px;
+}
+.form-box{
+    width: 100%;
+        max-width: 200px;
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        transform: translate(-50%-50%);
+        padding: 20px 30px 50px;
+        font-size: 30px;
+}
+div.content{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+input{
+    border-radius: 3px;
+    font-size: 16px;
+    stroke: none;
+}
+select{
+    border-radius: 3px;
+    font-size: 16px;
+    width: 100%;
+}
