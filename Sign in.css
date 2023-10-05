@@ -106,6 +106,12 @@ li.Home:hover {
     text-decoration: none;
     font-size: 20px;
 }
+.link a:hover{
+    color: blue;
+    background-color: white;
+    border-radius: 5%;
+    border-width: 20%;
+}
 
 .form-box {
     width: 100%;
