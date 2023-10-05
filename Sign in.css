@@ -62,10 +62,6 @@ a:hover {
     color: blue;
 }
 
-li.Home:hover {
-    color: blue;
-}
-
 /* navigation icon */
 .toggle-bar {
     position: fixed;
