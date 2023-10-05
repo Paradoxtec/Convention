@@ -1,25 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-h1{
+
+h1 {
     color: darkgray;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
     padding-bottom: 10px;
     text-align: center;
 }
-.content{
-width: 100%;
-max-width: 200px;
-position: absolute;
-top: 30%;
-left: 30%;
-transform: translate(-50%-50%);
-background-color: white;
-padding: 20px 30px 40px;
+
+.content {
+    width: 100%;
+    max-width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50% -50%);
+    padding: 20px 30px 50px;
 }
-button{
+
+button {
     border-radius: 3px;
     background-color: blue;
     border: none;
@@ -27,35 +28,45 @@ button{
     align-items: center;
     font-size: 15px;
     cursor: pointer;
+    margin-top: 5%;
 }
-button:hover{
+
+button:hover {
     background-color: gray;
 }
-ul{
+
+ul {
     list-style: none;
     position: fixed;
-    top: 30px;
+    top: 50px;
     right: 10px;
     color: black;
     padding: 10px;
     cursor: pointer;
+    background-color: lightgray;
 }
-/* All asterick*/
-em{
-    color: red;
-} 
 
-/* navigation bars*/
-a{
-    text-decoration: none;
-    color:gray ;
-    font-size: 2rem;
+/* All asterisk */
+em {
+    color: red;
 }
-a:hover{
+
+/* navigation bars */
+a {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+a:hover {
     color: blue;
 }
 
-/* navigation icon*/
+li.Home:hover {
+    color: blue;
+}
+
+/* navigation icon */
 .toggle-bar {
     position: fixed;
     top: 10px;
@@ -67,12 +78,13 @@ a:hover{
     align-items: center;
 }
 
-/* Style for all icons*/
+/* Style for all icons */
 .toggle-bar .fa-bars {
     font-size: 25px;
     margin-right: 5px;
     margin-left: 5px;
 }
+
 .link {
     list-style: none;
     padding: 0;
@@ -82,36 +94,47 @@ a:hover{
     margin-bottom: 10px;
 }
 
+.link i {
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
 .link a {
     color: gray;
     text-decoration: none;
+    font-size: 20px;
 }
 
-.link i {
-    font-size: 16px;
-    margin-right: 5px;
-}
-.form-box{
+.form-box {
     width: 100%;
-        max-width: 200px;
-        position: absolute;
-        top: 30%;
-        left: 25%;
-        transform: translate(-50%-50%);
-        padding: 20px 30px 50px;
-        font-size: 30px;
+    max-width: 200px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50% -50%);
+    padding: 20px 30px 50px;
 }
-div.content{
-    font-size: 30px;
+
+div.Email {
+    font-size: 20px;
     padding: 0;
     margin: 0;
 }
-input{
+
+div.content {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+input {
     border-radius: 3px;
     font-size: 16px;
-    stroke: none;
 }
-select{
+
+select {
     border-radius: 3px;
     font-size: 16px;
     width: 100%;
